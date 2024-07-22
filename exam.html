@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examination Module</title>
+    <link rel="stylesheet" href="exam.css">
+</head>
+<body>
+    <a href="finalpec.html"><button>Home</button></a><br>
+    <br>
+    <div class="container">
+        <h1>Examination Module</h1>
+        
+        <form id="exam-form">
+            <input type="text" id="exam-title" placeholder="Exam Title" required>
+            <input type="date" id="exam-date" required>
+            <input type="text" id="exam-duration" placeholder="Duration (hours)" required>
+            <button type="submit">Add Exam</button>
+        </form>
+
+        <h2>Examination Schedule</h2>
+        <table id="exam-table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Date</th>
+                    <th>Duration</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Examination records will be dynamically inserted here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="exam.js"></script>
+</body>
+</html>

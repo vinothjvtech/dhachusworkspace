@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Attendance Module</title>
+    <link rel="stylesheet" href="student.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Attendance Module</h1>
+        <form id="attendance-form">
+            <input type="text" id="student-name" placeholder="Enter Student RollNo" required><br><br>
+            <button type="submit">Submit Attendance</button>
+        </form>
+
+        <h2>Attendance Records</h2>
+        <table id="attendance-table">
+            <thead>
+                <tr>
+                    <th>RollNo</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Attendance records will be dynamically inserted here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="attendance.js"></script>
+</body>
+</html>
