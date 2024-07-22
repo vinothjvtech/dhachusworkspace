@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Material Module</title>
+    <link rel="stylesheet" href="studymaterial.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Study Material Module</h1>
+        
+        <form id="material-form">
+            <input type="text" id="material-title" placeholder="Material Title" required>
+            <input type="url" id="material-link" placeholder="Material Link" required>
+            <button type="submit">Add Material</button>
+        </form>
+
+        <h2>Study Materials</h2>
+        <table id="material-table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Study materials will be dynamically inserted here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="studymaterial.js"></script>
+</body>
+</html>
