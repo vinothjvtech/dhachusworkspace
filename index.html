@@ -26,12 +26,17 @@
                 <a href="#">Forgot password?</a>
 
             </div>
-            <button type="submit" class="btn">Login</button>
+            <button type="submit" id="login" class="btn">Login</button>
             <div class="register-link">
                 <p>Don't have an account?<a href="register"> Register</a></p>
 
             </div>
         </form>
     </div>
+    <script type="text/javascript">
+        document.getElementById("login").onclick = function () {
+            location.href = "studentportal.html";
+        };
+    </script>
 </body>
 </html>
